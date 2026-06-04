@@ -1,0 +1,14 @@
+{
+  "name": "vulnerable-snyk-test",
+  "version": "1.0.0",
+  "description": "A simple JS project with vulnerable dependencies for testing Snyk",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "lodash": "4.17.4",
+    "minimist": "1.2.0",
+    "serialize-javascript": "1.9.0"
+  }
+}
